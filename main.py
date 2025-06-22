@@ -29,9 +29,9 @@ def main(driver):
     Cart_page(driver,Total_Items).Add_to_cart()
     Cart_page(driver,Total_Items).At_cart()
     
-    #Multiple_Items(driver,Total_Items).Iterate_items()
+    Multiple_Items(driver,Total_Items).Iterate_items()
 
-    #Collections(driver, Total_Items).collection_html()
+    Collections(driver, Total_Items).collection_html()
 
     time.sleep(5)
 
