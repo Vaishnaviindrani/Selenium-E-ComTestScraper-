@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 import time
 
-
+# this class is created to visit eact product page
 class Multiple_Items():
     def __init__(self, driver, Total_Items):
         self.driver = driver
@@ -16,4 +16,5 @@ class Multiple_Items():
             Items[i].click()
             time.sleep(1)
             self.driver.find_element(*self.button).click()
+
             time.sleep(2)
